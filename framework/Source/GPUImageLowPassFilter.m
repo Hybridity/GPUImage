@@ -36,6 +36,12 @@
     return self;
 }
 
+// prevent infinite loops
+- (void)conserveMemoryForNextFrame
+{
+
+}
+
 #pragma mark -
 #pragma mark Accessors
 
